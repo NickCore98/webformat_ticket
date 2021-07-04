@@ -1,0 +1,6 @@
+-- SQL COMMAND TO CREATE TABLE 'team'
+CREATE TABLE team (
+    ID int NOT NULL AUTO_INCREMENT,
+    Name varchar(255) NOT NULL UNIQUE,
+    PRIMARY KEY (ID)
+);

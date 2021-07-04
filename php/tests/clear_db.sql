@@ -1,0 +1,19 @@
+-- SQL COMMAND TO CLEAR DB
+
+DROP FUNCTION check_DEV;
+
+DROP FUNCTION check_PM;
+
+DROP TABLE assignment;
+
+DROP TABLE task;
+
+DROP TABLE project;
+
+DROP TABLE employee;
+
+DROP TABLE team;
+
+DROP TABLE role;
+
+DROP TRIGGER check_unique_CEO;
